@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Mensaje personalizado') {
+        stage('Mensaje') {
             steps {
-                echo 'Hola, Jenkins está ejecutando el pipeline correctamente 🚀'
+                echo 'Jenkins está ejecutando el pipeline correctamente 🚀'
             }
         }
     }

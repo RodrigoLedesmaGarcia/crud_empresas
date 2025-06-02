@@ -2,7 +2,7 @@
 #configuracion en el DockerFile para iniciar la dockerizacion
 #*************************************************************
 
-FROM openjdk:21-alpine
+FROM openjdk:17-alpine
 
 # Establece el directorio de trabajo dentro del contenedor
 WORKDIR /app
