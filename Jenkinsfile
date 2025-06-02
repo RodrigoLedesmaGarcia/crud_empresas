@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Mensaje personalizado') {
             steps {
-                sh './mvnw clean package -DskipTests'
+                echo 'Hola, Jenkins está ejecutando el pipeline correctamente 🚀'
             }
         }
     }
